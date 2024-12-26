@@ -4,12 +4,22 @@ h2 = document.querySelector("#h2");
 h3 = document.querySelector("#h3");
 h4 = document.querySelector("#h4");
 var count = 0;
+
+function add() {
+    username = prompt("Enter you name")
+    address = prompt("Enter your Address")
+    phone = prompt("Enter your Phone")
+    age = prompt("Enter your Age")
+}
+
 btn.addEventListener("click",()=>{
+    
     if (count===0) {
-        h1.innerHTML = `Name :${name}`
-    h2.innerHTML = "Add : Bhopal"
-    h3.innerHTML = "Mob: 123456790"
-    h4.innerHTML = "Age : 22"
+        add();
+    h1.innerHTML = `Name :${username}`
+    h2.innerHTML = `Add : ${address}`
+    h3.innerHTML = `Mob:${phone}`    
+    h4.innerHTML = `Age : ${age}`
     btn.innerHTML = "Remove Data"
     btn.style.backgroundColor = "Red"
     count++;
