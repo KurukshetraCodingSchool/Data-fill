@@ -1,8 +1,8 @@
-var btn =  document.querySelector("button")
-h1 = document.querySelector("#h1");
-h2 = document.querySelector("#h2");
-h3 = document.querySelector("#h3");
-h4 = document.querySelector("#h4");
+var btn =document.querySelector("button")
+var h1 = document.querySelector("#h1");
+var h2 = document.querySelector("#h2");
+var h3 = document.querySelector("#h3");
+var h4 = document.querySelector("#h4");
 var count = 0;
 
 function add() {
